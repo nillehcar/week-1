@@ -6,7 +6,6 @@
 
 html {
 	box-sizing: border-box;
-
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -15,4 +14,107 @@ html {
 
 *, *:before, *:after {
 	box-sizing: inherit;
+}
+
+body, ul {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	letter-spacing: 10px;
+	font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+	letter-spacing: 2px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 15px;
+}
+
+h3 {
+	letter-spacing: 2px;
+	font-family: "Montserrat", sans-serif;
+	font-size: 11px;
+	padding: 1rem;
+}
+
+p {
+	font-family: "Averia Serif Libre", serif;
+	font-size: 13px;
+	line-height: 1.5rem;
+}
+
+a {
+	text-decoration: none;
+	border-bottom: none;
+	line-height: 2rem;
+}
+
+a:hover,
+a:active,
+a:focus {
+	border-bottom: 2px white solid;
+	-webkit-transition: all .15s linear;
+	-moz-transition: all .15s linear;
+	-o-transition: all .15s linear;
+	transition: all .15s linear;
+}
+
+.icon-landscape {
+	width: 3em;
+}
+
+.upper {
+	text-transform: uppercase;
+}
+
+.center {
+	text-align: center;
+}
+
+.white {
+	color: white;
+}
+
+.photo {
+	padding: 10rem 0;
+	background: transparent url("../images/bg.JPG") no-repeat center top;
+	background-size: cover;
+}
+
+.info {
+	padding: 3rem 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+.activities{
+	width: 100%;
+	padding: 2rem;
+}
+
+@media only screen and (min-width: 40em) {
+	.activities {
+		float: left;
+		width: 50%;
+	}
+
+}
+
+@media only screen and (min-width: 60em) {
+	.activities {
+		float: left;
+		width: 25%;
+	}
+}
+
+
+.footer {
+	clear: both;
+	padding: 5rem 0;
+	background: transparent url("../images/footer.jpg") no-repeat center top;
+	background-size: cover;
 }
