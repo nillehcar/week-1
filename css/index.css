@@ -27,9 +27,10 @@ h1 {
 }
 
 h2 {
-	letter-spacing: 2px;
+	letter-spacing: 4px;
 	font-family: "Montserrat", sans-serif;
-	font-size: 15px;
+	font-size: 16px;
+	padding-top: 1rem;
 }
 
 h3 {
@@ -40,9 +41,10 @@ h3 {
 }
 
 p {
-	font-family: "Averia Serif Libre", serif;
+	font-family: "Source Sans Pro", serif;
 	font-size: 13px;
 	line-height: 1.5rem;
+	text-align: center;
 }
 
 a {
@@ -54,7 +56,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-	border-bottom: 2px white solid;
+	border-bottom: 3px white solid;
 	-webkit-transition: all .15s linear;
 	-moz-transition: all .15s linear;
 	-o-transition: all .15s linear;
@@ -78,13 +80,14 @@ a:focus {
 }
 
 .photo {
-	padding: 10rem 0;
+	padding-top: 6rem;
+	padding-bottom: 30rem;
 	background: transparent url("../images/bg.JPG") no-repeat center top;
 	background-size: cover;
 }
 
 .info {
-	padding: 3rem 0;
+	padding: 6rem 2rem;
 }
 
 li {
@@ -93,7 +96,7 @@ li {
 
 .activities{
 	width: 100%;
-	padding: 2rem;
+	padding: 1.5rem;
 }
 
 @media only screen and (min-width: 40em) {
@@ -104,7 +107,7 @@ li {
 
 }
 
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 70em) {
 	.activities {
 		float: left;
 		width: 25%;
