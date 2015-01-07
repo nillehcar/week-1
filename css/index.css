@@ -47,6 +47,11 @@ p {
 	text-align: center;
 }
 
+.sub {
+	letter-spacing: 5px;
+	line-height: .75rem;
+}
+
 a {
 	text-decoration: none;
 	border-bottom: none;
