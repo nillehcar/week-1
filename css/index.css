@@ -132,11 +132,3 @@ li {
 	}
 
 }
-
-
-.footer {
-	clear: both;
-	padding: 5rem 0;
-	background: transparent url("../images/footer.jpg") no-repeat center top;
-	background-size: cover;
-}
